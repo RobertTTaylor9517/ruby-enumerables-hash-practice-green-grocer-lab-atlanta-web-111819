@@ -29,7 +29,7 @@ def apply_coupons(cart, coupons)
     cart[it][:count] -= groc[it][:num]
   end
   }
-  
+  }
   return cart 
 end
 
